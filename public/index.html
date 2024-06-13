@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--
+  Name: Eden Obeng Nana Kyei 
+  CS 132 Spring 2024
+  Coffee selling shop 
+-->
+<html lang="en">
+<head> 
+    <title>String</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+    </style>
+    <link href="styles.css" rel="stylesheet">
+    <script src="helpers.js"></script>
+    <script defer src="strict.js"></script>
+</head>
+<body>
+    <header id="top-bar" class="hidden"> 
+        <h1 id = "main_page">String</h1>
+        <nav>
+            <ul> 
+                <li id="origin_li">Shop by Origin: </li>
+                <select name="type-origin" id="origin-options">
+                    <option value="Choose-origin">Select option</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Ethiopia">Ethiopia</option>
+                    <option value="Rwanda">Rwanda</option>
+                    <option value="Malawi">Malawi</option>
+                    <option value="Tanzania">Tanzania</option>
+                </select>
+                <button id="search-btn2">Search</button>
+            </ul>
+            <ul id = "side"> 
+                <button id="cart-btn">View Cart</button>
+                <button id="review-btn">See Reviews</button>
+                <button id="leavecontact-btn">Contact Us</button>
+                <button><a href="index.html">Logout</a></button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="login-section"> 
+            <h2>String Account Login</h2>
+            <section id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit" id ="login-btn">Log In</button>
+                <p id = "pg"></p>
+            </section>
+        </section>
+
+        <section id="main-view" class="hidden">
+            <h2>Welcome <span id = "user_name"></span>!</h2>
+            <h3 id="main-point">Try our seasonal coffee blends!</h3>
+            <div id="item-container">
+            </div>
+        </section>
+  
+        <section id="filter-view" class="hidden">
+          <div id="filter-container">
+            
+          </div>
+        </section>
+  
+        <section id="review-view" class="hidden">
+
+        </section>
+  
+        <section id="review-page" class="hidden">
+          <h2 id="review-point">Please leave a review! We'd love to hear your feedback about our coffee.</h2>
+            <section id="review-submit">
+                <label for="review-name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="review-coffee">Coffee Name:</label>
+                <input type="text" id="coffee" name="coffee" required>
+                <label for="review-statement">Review:</label>
+                <input type="text" id="review-words" name="review-words" required>
+                <button id="submit-btn">Submit</button>
+            </section>
+          </section>
+  
+        <section id = "contact-page" class="hidden">
+          <section id="contact-view">
+            <label for="contact-name">Name:</label>
+            <input type="text" id="contact-name" name="name" required>
+            <label for="contact-date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="contact-info">Questions/Concerns:</label>
+            <input type="paragraph" id="information" name="info" required>
+            <button id="contact-btn">Submit</button>
+          </section>
+        </section>
+  
+        <section id="product-view" class="hidden">
+          <h1 id="redirect">Click the store name to return back to the home page!</h1>
+          <h2 id="product-info">Item Information</h2>
+          <p id = "product-p">Please select the bag quantity and coffee type for your item!</p>
+          <h3 id="item-name"></h3>
+          <img id="product-img">
+          <p id="item-desc"></p>
+  
+          <select name="product-flavor" id = "product-flavor">
+            <option value="Choose-flavor">Select flavor</option>
+            <option value="Fruity">Fruity</option>
+            <option value="Chocolatey">Chocolatey</option>
+            <option value="Nutty">Nutty</option>
+            <option value="Floral">Floral</option>
+            <option value="Earthy/spicy">Earthy/Spicy</option>
+          </select>
+          <select name="product-quantity" id = "product-quantity">
+            <option value="Choose-quantity">Select quantity</option>
+            <option value="1 lb">1 lb</option>
+            <option value="2 lb">2 lb</option>
+            <option value="3 lb">3 lb</option>
+            <option value="4 lb">4 lb</option>
+            <option value="5 lb">5 lb</option>
+          </select>
+  
+          <p id="price">Price: <span id="price-value"></span></p>
+          <button id="postReviews-btn">Leave a Review</button>
+          <button id="cartBtn">Add to Cart</button>
+        </section>
+  
+        <section id="cart-view" class="hidden">
+        </section>
+    </main>
+</body>
+</html>

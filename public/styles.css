@@ -1,0 +1,402 @@
+:root {
+    --coffee-dark: #423D33; 
+    --coffee-mid: #8D775F; 
+    --coffee-light: #DDB892; 
+    --accent-color: #A76D60;
+    --background-main: #FBF5F3; 
+    --text-color: #2E2519; 
+    --link-hover: #5E503F; 
+}
+
+body {
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+body, h2#main-point {
+    background-color: var(--background-main);
+}
+
+header, footer {
+    background-color: var(--coffee-dark);
+}
+
+header, footer, #origin-options option, 
+#search-btn2, #origin-options, #side button {
+    color: beige;
+}
+
+h1, h2, h3 {
+    margin-bottom: 0.8em;
+}
+
+h1 {
+    font-size: 24pt; 
+    font-weight: 700; 
+}
+
+h2#main-point, article h3, #item-name {
+    color: var(--coffee-dark); 
+}
+
+h2#main-point, h1, h2, h3, body, #search-btn2 {
+    font-family: 'Spicy Rice', sans-serif; 
+}
+
+h2#main-point, header, footer {
+    padding: 20px 0;
+}
+
+header h1 a {
+    color: var(--coffee-light); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-decoration: none; 
+}
+
+header h1 a:hover {
+    color: var(--accent-color); 
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    max-width: 100pt;
+    max-height: 150pt;
+  }
+
+#top-bar {
+    background-color: #A76D60; 
+    font-family: "Spicy Rice";
+}
+
+#top-bar nav {   
+    text-align: right;
+    font-weight: bold;
+}
+
+#origin_li {
+    margin-right: 10px;
+}
+
+#origin-options option {
+    font-family: "Spicy Rice";
+}
+
+#search-btn2 {
+    color: #A76D60; 
+}
+
+#main_page {
+    font-size: 50pt;
+    margin: 0px;
+}
+
+#main_page, h2#main-point, 
+#login-section, #product-view, 
+#product-p, #item-name, #item-desc { 
+    text-align: center;
+}
+
+#dropdown {
+    text-align: left;
+    margin-left: 10px;
+}
+
+#top-bar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+#search-btn2, #origin-options {
+    border: 2px solid #A76D60; 
+    border-radius: 12px;
+    height: 35px;
+    margin-top: auto;
+}
+
+/* #Login Page */
+#login-section {
+    background-color: #F7EDE2; 
+    color: #5D4037; 
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 100px auto;
+    font-family: 'Spice Rice', serif;
+}
+
+#login-section h2 {
+    color: #A67B5B; 
+    font-family: 'Spicy Rice', serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #A67B5B; 
+}
+
+#login-form input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #D4C3B6;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+}
+
+#login-form button {
+    background-color: #A67B5B; 
+    color: #F7EDE2; 
+    border: none;
+    padding: 14px 28px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'Spicy Rice', serif;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#item-container,
+#filter-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px;
+    padding: 20px; 
+}
+
+article {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+article:hover {
+    transform: translateY(-5px); 
+}
+
+article h3, article p, article span {
+    padding: 10px; 
+    margin: 0; 
+}
+
+article h3 {
+    font-size: 1.2rem;
+    background-color: var(--coffee-light); 
+}
+
+article img {
+    width: 100%; 
+    height: auto; 
+    display: block;
+}
+
+article hr {
+    margin: 0; 
+}
+
+article p {
+    color: #666; 
+    font-size: 0.9rem; 
+}
+
+article span {
+    font-weight: bold; 
+    color: var(--coffee-mid); 
+}
+
+#product-view {
+    align-items: center;
+}
+
+#product-p {
+    color: var(--coffee-mid); 
+    font-size: 1rem; 
+    padding: 10px 20px; 
+    border-radius: 4px; 
+    margin: 10px 0; 
+}
+
+#item-name {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    margin-top: 15px; 
+}
+
+#product-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+#item-desc {
+    color: #666; 
+    font-size: 0.9rem;
+    margin: 10px 0; 
+    padding: 0 15px;
+}
+
+#main_page {
+    cursor: pointer; 
+}
+
+#main_page:hover {
+    text-decoration: underline; 
+    transform: scale(1.1); 
+}
+
+
+#side button {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    
+    font-family: 'Spicy Rice', sans-serif;
+    cursor: pointer; 
+    padding: 10px;
+    display: inline-block; 
+}
+
+#side button, h2#main-point, #top-bar nav {
+    font-size: 20pt;
+}
+
+#side button:hover {
+    transform: scale(1.1); 
+    text-decoration: underline; 
+    color: #fff;
+}
+
+#side button a {
+    color: inherit; 
+    text-decoration: none; 
+    display: inline-block; 
+    width: 100%; 
+}
+
+#side button a:hover {
+    text-decoration: none; 
+}
+
+#contact-page {
+    background-color: #f7f7f7; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    width: 80%; 
+    max-width: 500px; 
+    margin: 20px auto; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+#review-view h2, #review-view h3, #review-view p {
+    margin: 10px;
+    padding: 2px;
+}
+
+#contact-view {
+    width: 100%;
+    flex-direction: column; 
+}
+
+#contact-view label {
+    margin-top: 10px; 
+    font-size: 1rem; 
+    color: #333; 
+}
+
+#contact-view input[type="text"],
+#contact-view input[type="date"],
+#contact-view input[type="paragraph"] {
+    padding: 10px; 
+    margin-top: 5px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
+
+#contact-view button {
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    margin-top: 20px; 
+    cursor: pointer;
+}
+
+#contact-view button:hover {
+    background-color: #45a049;
+}
+
+#review-page {
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto; 
+    flex-direction: column;
+    align-items: center; 
+    font-family: 'Arial', sans-serif; 
+}
+
+#review-submit {
+    width: 100%; 
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+#review-submit label {
+    font-size: 1rem; 
+    color: #333; 
+    margin-bottom: 5px; 
+}
+
+#review-submit input[type="text"] {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    width: 100%; 
+}
+
+#review-submit button {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    font-size: 1rem; 
+    font-weight: bold; 
+}
+
+#review-submit button:hover {
+    background-color: #367B37;
+}

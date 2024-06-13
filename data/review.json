@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Andy",
+    "coffee": "Ethiopia Highland Robusta",
+    "review": "It tastes really good. I enjoyed the flavor."
+  }, 
+  {
+    "name": "Michael",
+    "coffee": "Kenya Arabica Premium",
+    "review": "My favorite!"
+  }, 
+  {
+    "name": "Lily",
+    "coffee": "Kenyan Robusta Deluxe",
+    "review": "You should definitely buy it!"
+  }
+]

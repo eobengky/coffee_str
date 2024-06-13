@@ -1,0 +1,142 @@
+[
+    {
+        "tag-name": "Kenya-Arabica1",
+        "image": "imgs/kenya_arabica1.jpg",
+        "name": "Kenya Arabica Premium",
+        "flavor": "fruity",
+        "origin-type": "Kenya",
+        "price": "18.99",
+        "description": "A vibrant and highly aromatic coffee with bright citrus flavors.",
+        "type": "Arabica"
+    },
+    {
+        "tag-name": "Ethiopia-Robusta1",
+        "image": "imgs/ethiopia_robusta1.jpg",
+        "name": "Ethiopian Highland Robusta",
+        "flavor": "earthy/spicy",
+        "origin-type": "Ethiopia",
+        "price": "16.50",
+        "description": "Robust and bold, with a pronounced earthy flavor and a hint of spices.",
+        "type": "Robusta"
+    },
+    {
+        "tag-name": "Rwanda-Excelsa1",
+        "image": "imgs/rwanda_excelsa1.jpg",
+        "name": "Rwandan Excelsa Blend",
+        "flavor": "floral",
+        "origin-type": "Rwanda",
+        "price": "20.00",
+        "description": "A delicate floral aroma with a unique and complex flavor profile.",
+        "type": "Excelsa"
+    },
+    {
+        "tag-name": "Malawi-Liberica1",
+        "image": "imgs/malawi_liberica1.jpg",
+        "name": "Malawi Mountain Liberica",
+        "flavor": "nutty",
+        "origin-type": "Malawi",
+        "price": "22.99",
+        "description": "A rare Liberica variety offering a distinctly bold nutty flavor.",
+        "type": "Liberica"
+    },
+    {
+        "tag-name": "Tanzania-Arabica2",
+        "image": "imgs/tanzania_arabica2.jpg",
+        "name": "Tanzania Peaberry Arabica",
+        "flavor": "chocolatey",
+        "origin-type": "Tanzania",
+        "price": "19.99",
+        "description": "Rich and smooth, with deep velvety chocolate notes.",
+        "type": "Arabica"
+    },
+    {
+        "tag-name": "Kenya-Robusta2",
+        "image": "imgs/kenya_robusta2.jpg",
+        "name": "Kenyan Robusta Deluxe",
+        "flavor": "earthy/spicy",
+        "origin-type": "Kenya",
+        "price": "17.50",
+        "description": "Full-bodied coffee with rich earthy flavors and a spicy finish.",
+        "type": "Robusta"
+    },
+    {
+        "tag-name": "Ethiopia-Arabica2",
+        "image": "imgs/ethiopia_arabica2.jpg",
+        "name": "Ethiopian Sidamo",
+        "flavor": "floral",
+        "origin-type": "Ethiopia",
+        "price": "21.75",
+        "description": "Smooth and fragrant with subtle floral notes and a hint of berries.",
+        "type": "Arabica"
+    },
+    {
+        "tag-name": "Rwanda-Liberica2",
+        "image": "imgs/rwanda_liberica2.jpg",
+        "name": "Rwandan Liberica Essence",
+        "flavor": "nutty",
+        "origin-type": "Rwanda",
+        "price": "23.99",
+        "description": "Earthy tones complemented by a rich nutty flavor make this a memorable coffee.",
+        "type": "Liberica"
+    },
+    {
+        "tag-name": "Malawi-Arabica3",
+        "image": "imgs/malawi_arabica3.jpg",
+        "name": "Malawi Gold Arabica",
+        "flavor": "fruity",
+        "origin-type": "Malawi",
+        "price": "18.99",
+        "description": "Golden beans produce a sweet, fruity cup with a bright, crisp finish.",
+        "type": "Arabica"
+    },
+    {
+        "tag-name": "Tanzania-Robusta3",
+        "image": "imgs/tanzania_robusta3.jpg",
+        "name": "Tanzanian Robusta Strong",
+        "flavor": "earthy/spicy",
+        "origin-type": "Tanzania",
+        "price": "15.99",
+        "description": "A potent brew with deep earthy notes and a robust flavor.",
+        "type": "Robusta"
+    },
+    {
+        "tag-name": "Ethiopia-Excelsa2",
+        "image": "imgs/ethiopia_excelsa2.jpg",
+        "name": "Ethiopian Excelsa Treasure",
+        "flavor": "floral",
+        "origin-type": "Ethiopia",
+        "price": "22.45",
+        "description": "An exquisite blend that offers a floral aroma balanced with sweet and tangy notes.",
+        "type": "Excelsa"
+    },
+    {
+        "tag-name": "Rwanda-Arabica3",
+        "image": "imgs/rwanda_arabica3.jpg",
+        "name": "Rwandan Cherry Arabica",
+        "flavor": "fruity",
+        "origin-type": "Rwanda",
+        "price": "24.99",
+        "description": "Sweet cherry flavor with a hint of tartness, producing a lively cup of coffee.",
+        "type": "Arabica"
+    },
+    {
+        "tag-name": "Malawi-Excelsa3",
+        "image": "imgs/malawi_excelsa3.jpg",
+        "name": "Malawian Excelsa Special",
+        "flavor": "chocolatey",
+        "origin-type": "Malawi",
+        "price": "20.50",
+        "description": "Unique chocolatey undertones with a smooth finish, perfect for any time of day.",
+        "type": "Excelsa"
+    },
+    {
+        "tag-name": "Tanzania-Liberica3",
+        "image": "imgs/tanzania_liberica3.jpg",
+        "name": "Tanzanian Liberica Classic",
+        "flavor": "nutty",
+        "origin-type": "Tanzania",
+        "price": "21.99",
+        "description": "Classic Liberica beans with a strong, distinctive nutty flavor that's boldly satisfying.",
+        "type": "Liberica"
+    }
+]
